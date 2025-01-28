@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bolsa Família - Benefício e Apoio</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+        header {
+            background-color: #f6d22f; /* Cor amarela clara, semelhante à cor do cartão */
+            color: #003d00; /* Texto em um verde escuro para contraste */
+            padding: 20px 0;
+            text-align: center;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+        header h1 {
+            margin: 0;
+            font-size: 40px;
+            font-weight: bold;
+        }
+        header p {
+            font-size: 24px;
+        }
+        main {
+            padding: 20px;
+        }
+        section {
+            margin-bottom: 40px;
+        }
+        h2 {
+            font-size: 32px;
+            color: #00a859;
+            margin-bottom: 20px;
+        }
+        h3 {
+            font-size: 26px;
+            color: #005c3d;
+        }
+        p, ul, ol {
+            font-size: 20px;
+            line-height: 1.6;
+        }
+        ul, ol {
+            margin-bottom: 20px;
+        }
+        .card {
+            background-color: white;
+            border-radius: 8px;
+            padding: 20px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            margin-bottom: 20px;
+            overflow: hidden;
+        }
+        .card img {
+            width: 100%;
+            height: auto;
+            border-radius: 8px;
+            margin-bottom: 15px;
+        }
+        .card h3 {
+            color: #00a859;
+            font-size: 28px;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+        }
+        table th, table td {
+            padding: 15px;
+            border: 1px solid #ddd;
+            text-align: center;
+        }
+        table th {
+            background-color: #00a859;
+            color: white;
+        }
+        footer {
+            background-color: #005c3d;
+            color: white;
+            padding: 15px;
+            text-align: center;
+        }
+        footer p {
+            margin: 0;
+            font-size: 20px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Bolsa Família - Benefício e Apoio</h1>
+        <p>Informações sobre o Programa Bolsa Família e como ele beneficia as famílias em todo o Brasil</p>
+    </header>
+
+    <main>
+        <section id="sobre">
+            <h2>O Programa</h2>
+            <p>O Bolsa Família é um programa de transferência direta de renda que beneficia famílias em situação de pobreza e extrema pobreza no Brasil. Criado em 2003, o programa visa garantir a essas famílias o direito à alimentação, educação e saúde.</p>
+            <div class="card">
+                <img src="https://tse1.mm.bing.net/th?id=OIP.xggYRm8eekKGOgV5RGd4RwHaJQ&pid=Api" alt="Imagem do Cartão Bolsa Família">
+                <h3>Cartão Bolsa Família</h3>
+                <p>O cartão Bolsa Família é utilizado pelos beneficiários para sacar o benefício de forma rápida e segura. Ele é fornecido pela Caixa Econômica Federal.</p>
+            </div>
+        </section>
+
+        <section id="noticias">
+            <h2>Notícias Recentes</h2>
+            <article class="card">
+                <h3>Caixa paga Bolsa Família para beneficiários com NIS final 6</h3>
+                <p>A Caixa Econômica Federal iniciou o pagamento do Bolsa Família para os beneficiários com o número de NIS final 6. A data de pagamento segue o calendário de janeiro e a quantia será depositada diretamente nas contas dos beneficiários.</p>
+                <p>Confira a tabela de pagamento de janeiro de 2025:</p>
+
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Data de Pagamento</th>
+                            <th>Final do NIS</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>26 de Janeiro de 2025</td>
+                            <td>6</td>
+                        </tr>
+                        <tr>
+                            <td>29 de Janeiro de 2025</td>
+                            <td>7</td>
+                        </tr>
+                        <tr>
+                            <td>30 de Janeiro de 2025</td>
+                            <td>8</td>
+                        </tr>
+                        <tr>
+                            <td>31 de Janeiro de 2025</td>
+                            <td>9</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </article>
+        </section>
+
+        <section id="galeria">
+            <div class="card">
+                <img src="https://ddez.com.br/wp-content/uploads/2016/01/img_bolsa_familia.jpg" alt="Imagem de Benefício Bolsa Família">
+                <h3>Benefício para Famílias em Situação de Vulnerabilidade</h3>
+                <p>O Bolsa Família é fundamental para tirar as famílias da extrema pobreza, oferecendo apoio essencial em momentos de dificuldades financeiras e sociais.</p>
+            </div>
+            <div class="card">
+                <img src="https://cdn.brasildefato.com.br/media/5ab2a268d7f1b629860ddd8bc6b1d7a7.jpg" alt="Mulheres Beneficiadas pelo Bolsa Família">
+                <h3>Maioria dos Beneficiários são Mulheres</h3>
+                <p>Mais de 90% dos beneficiários do Bolsa Família são mulheres, que são as principais responsáveis por sustentar e cuidar das famílias em situação de vulnerabilidade.</p>
+            </div>
+            <div class="card">
+                <img src="https://www.gov.br/pt-br/noticias/assistencia-social/2023/07/bolsa-familia-amplia-cardapio-e-horizontes-de-amanda-e-dos-oito-filhos-em-garibaldi-rs/12072023_bolsa_familia32.jpeg" alt="Amanda e seus Oito Filhos com Bolsa Família">
+                <h3>O Impacto do Bolsa Família na Vida de Amanda</h3>
+                <p>O Bolsa Família tem transformado a vida de muitas mães como Amanda, que com seus oito filhos em Garibaldi, RS, tem acesso a uma alimentação mais saudável e novas oportunidades de crescimento.</p>
+            </div>
+            <!-- Removendo a imagem e mantendo apenas o texto -->
+            <div class="card">
+                <h3>Mãe com Filhos em Situação de Vulnerabilidade</h3>
+                <p>Milhares de mães são beneficiadas com o Bolsa Família, ajudando a garantir alimentação e cuidados para seus filhos, além de acesso à educação e saúde.</p>
+            </div>
+            <!-- Removendo a imagem e mantendo apenas o texto -->
+            <div class="card">
+                <h3>Superando Desafios</h3>
+                <p>O Bolsa Família ajuda essas mães a superarem as dificuldades do dia a dia, oferecendo um auxílio financeiro crucial para a sobrevivência e o bem-estar das famílias.</p>
+            </div>
+        </section>
+
+        <section id="textos">
+            <h2>Impacto na Vida das Famílias</h2>
+            <p>O Bolsa Família tem sido uma ferramenta essencial para a melhoria das condições de vida de milhões de famílias em situação de vulnerabilidade social no Brasil. Com o benefício, muitas dessas famílias conseguem garantir o básico para sua sobrevivência, como a alimentação e o acesso à saúde e à educação.</p>
+
+            <p>Em muitos casos, o programa se tornou a principal fonte de renda para as famílias, especialmente em regiões mais afastadas e carentes. O impacto do Bolsa Família é especialmente significativo nas vidas das mulheres, que representam mais de 90% dos beneficiários do programa. Elas são as principais responsáveis pela gestão do benefício e pelo cuidado com os filhos e outros dependentes.</p>
+        </section>
+
+        <section id="textos2">
+            <h2>Transformando Realidades</h2>
+            <p>O programa tem ajudado a reduzir a pobreza e a desigualdade no país, proporcionando oportunidades para que as famílias saiam da extrema pobreza. Além disso, muitos dos beneficiários relatam que o Bolsa Família foi fundamental para o acesso à educação, permitindo que seus filhos frequentem a escola e tenham um futuro melhor.</p>
+
+            <p>Apesar das críticas e desafios, o Bolsa Família continua sendo uma das maiores conquistas da assistência social no Brasil. Ele é um pilar importante para a construção de um país mais justo e igualitário, e seu impacto positivo nas comunidades em situação de vulnerabilidade é inegável.</p>
+        </section>
+
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Bolsa Família. Todos os direitos reservados.</p>
+    </footer>
+</body>
+</html>
